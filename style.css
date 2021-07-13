@@ -1,0 +1,76 @@
+body {
+    background-color:#4B4453;
+    color: #ffffff;
+    font-family: Arial;
+    margin:0;
+    width: 100vw !important;
+}
+header {
+    width: 100%;
+    text-align: center;
+}
+.welcomeWordH2{
+    text-align: center;
+}
+.cellSection{ 
+    margin-bottom: 5vh;
+    width: 100vw;
+    background-image: radial-gradient(circle, #4b4453, #4d4654, #4f4955, #514b57, #534e58, #534e58, #534e58, #534e58, #514b57, #4f4955, #4d4654, #4b4453);
+    box-shadow: 2px 2px 2px 10px #4B4453;
+    border: #4B4453 5px solid;
+    border-radius: 2%;
+}
+.picdiv{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    padding: 2vw 0;
+    justify-content: center;
+}
+img {
+    max-width: 100%;
+    width: 94vw !important;
+    height: auto !important;
+    border-radius: 2%;
+    border: #4B4453 1px solid;
+}
+.descriptionDiv{
+    padding: 0 0 0 2vw;
+    margin: 0;
+    height: fit-content;
+}
+.descriptionSpan{
+    font-weight: bold;
+}
+
+.discriptionP{
+}
+
+
+@media (max-width:767px) {
+    .portfolio img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .portfolio img {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (min-width:992px) {
+    .portfolio img {
+        max-width: 314px;
+        max-height: 314px;
+    }
+}
+
+@media (min-width:1200px) {
+    .portfolio img {
+        max-width: 380px;
+        max-height: 380px;
+    }
+}
