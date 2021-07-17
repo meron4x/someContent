@@ -51,6 +51,9 @@ img {
     .portfolio img {
         max-width: 100%;
         max-height: 100%;
+        .discriptionP {
+                    font-size : smaller;
+                }
     }
 }
 
@@ -58,9 +61,6 @@ img {
     .portfolio img {
         max-width: 240px;
         max-height: 240px;
-        .discriptionP {
-            font-size : smaller;
-        }
     }
 }
 
