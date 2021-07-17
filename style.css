@@ -57,6 +57,12 @@ hr {
     margin: 3vh auto;
 }
 
+.email{
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
 
 @media (max-width:767px) {
     .portfolio img {
