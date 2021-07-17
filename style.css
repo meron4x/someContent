@@ -1,5 +1,5 @@
 body {
-    background-color:#2f2815 ;
+    background-color:#2a220d ;
     color: #ffffff;
     font-family: Arial;
     margin:0;
@@ -14,8 +14,8 @@ header {
 }
 .cellSection{ 
     width: 100vw;
-    background-color:#251e0d;
-    box-shadow: 0 0 5px 2px #251e0d;
+    background-color:#1f180a;
+    box-shadow: 0 0 5px 2px #1f180a;
     border-radius: 2%;
 }
 .picdiv{
