@@ -60,6 +60,8 @@ hr {
     margin: 2vh;
     display: flex;
     justify-content: center;
+    opacity: 0.5;
+    color: #1eff00;
 }
 
 
