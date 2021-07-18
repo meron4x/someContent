@@ -1,0 +1,14 @@
+<section class="cellSection">
+        <div class="picdiv">
+            <img class="portfolio" src="images/nft1.jpg" alt="">
+        </div>
+        <div class="descriptionDiv">
+            <p class="discriptionP">
+                    <span class="descriptionSpan">
+                        What :
+                    </span>
+                NFTs x) x)
+            </p>
+            <small>July 15, 2021</small>
+        </div>
+    </section>
