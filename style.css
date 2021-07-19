@@ -11,6 +11,17 @@ header {
 }
 .welcomeWordH2{
     text-align: center;
+    font-family: monospace;
+    opacity: 0.5;
+    transition: 0.3s;
+    
+}
+.welcomeWordH2:hover {
+    transform: scale(1.1);
+   
+}
+
+.welcomeWordP {
 }
 .cellSection{ 
     width: 100vw;
