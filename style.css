@@ -2,8 +2,9 @@ body {
     background-color:#1d1d1d ;
     color: #ffffff;
     font-family: Arial;
-    margin:0;
+    margin:auto;
     width: 100% !important;
+    max-width: 900px !important;
 }
 
 header {
@@ -11,14 +12,14 @@ header {
     text-align: center;
 }
 
-.welcomeWordH2{
+.welcomeWordH1{
     text-align: center;
     font-family: monospace;
     opacity: 0.5;
     transition: 0.3s;
 }
 
-.welcomeWordH2:hover {
+.welcomeWordH1:hover {
     transform: scale(1.2);
 }
 
