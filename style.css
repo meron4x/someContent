@@ -66,7 +66,7 @@ img {
 img:hover {
     background-color:#342a17;
     width: 94.45% !important;
-    box-shadow: 2px 2px 10px 10px rgba(255, 255, 255, 0.091);
+    box-shadow: 2px 2px 40px 10px rgba(255, 255, 255, 0.03);
 }
 
 .descriptionDiv{
