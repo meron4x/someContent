@@ -14,17 +14,43 @@ header {
 
 .welcomeWordH1{
     text-align: center;
-    font-family: monospace;
-    opacity: 0.5;
+    font-family: cursive;
+    opacity: 0.8;
     transition: 0.3s;
+    animation-name: mymove;
+    animation-duration: 10s;
+    animation-iteration-count : infinite;
+    animation-timing-function: ease-in-out;
 }
+@keyframes mymove {
+    0% {opacity: 0.7;
+        color: yellow;
+        font-weight: bold;}
+    25%{ opacity: 0.8;
+        color: white;}
+    50% {opacity: 0.9;
+        color:green;
+        font-weight: bolder;}
+    25%{ opacity: 0.8;
+        color: white;}
+    100% {opacity: 0.7;
+        color: yellow;
+    font-weight: bold;}
+  }
 
 .welcomeWordH1:hover {
     transform: scale(1.2);
 }
 
 .welcomeWordP {
+
+    font-family: cursive;
     transition: 0.3s;
+    font-size: xx-large;
+    animation-name: mymove;
+    animation-duration: 10s;
+    animation-iteration-count : infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .welcomeWordP:hover {
