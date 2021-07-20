@@ -75,7 +75,7 @@ header {
     width: 100%;
     height: fit-content;
     display: flex;
-    padding: 2vw 0;
+    padding: 1.2vw 0;
     justify-content: center;
     align-items: flex-start;
 }
@@ -96,14 +96,14 @@ img:hover {
     background-color:#342a17;
     width: 94.45% !important;
     box-shadow: 2px 2px 40px 10px rgba(255, 255, 255, 0.03);
-
     border: rgba(255, 255, 255, 0.03) solid 4px;
 }
 
 .descriptionDiv{
-    padding: 0 0 0 3vw;
     margin: 0;
+    padding: 0;
     height: fit-content;
+    text-align: center;
 }
 
 .descriptionSpan{
@@ -112,13 +112,14 @@ img:hover {
 
 .discriptionP{
     font-size: medium;
+    margin: 1vh auto;
 }
 
 small {
-    font-size: small;
-    opacity: 0.6;
-    color: #e7d6f7;
-    transition: 0.2s;  
+    font-size: smaller;
+    opacity: 0.4;
+    color: #ffffff;
+    transition: 0.2s;
 }
 
 .small:hover { 
@@ -135,14 +136,14 @@ hr {
     margin: 2vh;
     display: flex;
     justify-content: center;
-    opacity: 0.1;
     color: #1eff00;
     transition: 0.3s;
+    opacity: 0.1;
 }
 
 .email:hover {
-    font-size: 1.7vw;
-    opacity: 0.5 ;  
+    font-size: x-large;
+    opacity: 0.5;  
 }
 
 @media (max-width:767px) {
