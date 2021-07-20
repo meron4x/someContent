@@ -14,7 +14,7 @@ header {
 
 .welcomeWordH1{
     text-align: center;
-    font-family: cursive;
+    font-family: monospace;
     opacity: 0.8;
     transition: 0.3s;
     animation-name: mymove;
