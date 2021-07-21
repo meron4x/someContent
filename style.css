@@ -46,9 +46,9 @@ body {
 }
 
 .welcomeWordH1{
-    font-family:fantasy;
+    font-family:monospace;
     opacity: 0.8;
-    transform: scale(1.5);
+    transform: scale(2);
     transition: 0.3s;
     animation-name: mymove;
     animation-duration: 10s;
@@ -185,6 +185,9 @@ hr {
     }
     .email {
         font-size :small;
+    }
+    .welcomeWordH1 {
+    transform: scale(1.4);
     }
 }
 
