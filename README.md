@@ -1,2 +1,2 @@
 # someContent
-a blog site which i post images for now
+a blog page which i post images for now
