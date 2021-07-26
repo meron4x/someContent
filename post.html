@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Upload</title>
+</head>
+<body>
+
+	<?php
+	if($_FILES['image']['tmp_name']){
+		move_uploaded_file($_FILES['image']['tmp_name'], '/test/images/'.rand(1, 1000).'.jpg');
+	}
+	?>
+
+
+	<form enctype="multipart/form-data" method="POST">
+		<input type="file" name="image">
+		<input type="button" onclick="upload(this)">
+	</form>
+
+	<form enctype="multipart/form-data" method="POST">
+		<input type="file" name="image">
+		<input type="button" onclick="upload(this)">
+	</form>
+
+	<script>
+	function upload(input){
+		var xhr = new XMLHttpRequest();
+		xhr.upload.onprogress = function(e) {
+			console.log(e.loaded, e.total)
+		}
+		xhr.upload.onload = function(e) {
+			console.log('file upload')
+		}
+
+		xhr.open("POST", "/test/uploadfile.php", true);
+		xhr.send(new FormData(input.parentElement));
+	}
+	</script>
+</body>
+</html>
