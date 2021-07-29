@@ -78,6 +78,7 @@ body {
     font-family: fantasy;
     opacity: 0.8;
     transition: 0.3s;
+    font-size: middle;
     animation-name: mymove;
     animation-duration: 10s;
     animation-iteration-count : infinite;
@@ -249,7 +250,7 @@ hr {
         font-size :small;
     }
     .welcomeWordH1 {
-    transform: scale(1.2);
+    transform: scale(0.9);
     }
 }
 
