@@ -11,9 +11,12 @@ body {
     width: 100%;
     text-align: center;
 	display: flex;
-    margin: 4px 0 0 0;
-    padding: 0;
-    height: 5vh;}
+    margin: 1vh 0 4vh 0;
+    padding: 1vh 0;
+    height: 6vh; 
+    border-radius: 30px;   
+    box-shadow: 0 0 40px 1px rgba(240, 255, 32, 0.1);
+}
 
 .headerright {
     width :30%;
@@ -197,28 +200,9 @@ hr {
     background-image: linear-gradient(to right, rgb(65, 51, 51, 0), rgb(255, 238, 0), rgba(65, 51, 51,0));
     margin: 3vh auto;
 }
+
 #headerspliter{
-    margin: 1vh auto 3vh auto;
-    overflow: visible; /* For IE */
-    height: 30px;
-    border-style: solid;
-    border-color: yellow;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-    --colorx: linear-gradient(to right, rgb(65, 51, 51, 0), rgba(255, 238, 0, 0.07), rgba(65, 51, 51,0));
-    background-image: var(--colorx);
-    box
-    
-}
-#headerspliter:before { /* Not really supposed to work, but does */
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: yellow;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
+    display: none;
 }
 
 .email{
