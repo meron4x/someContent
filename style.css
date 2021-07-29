@@ -75,7 +75,7 @@ body {
 }
 
 .welcomeWordH1{
-    font-family: monospace;
+    font-family: Arial;
     opacity: 0.8;
     transition: 0.3s;
     font-size: middle;
