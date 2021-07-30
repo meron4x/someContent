@@ -159,10 +159,6 @@ img {
     border: rgba(255, 255, 255, 0) solid 4px;
 }
 
-iframe{
-    width: 100%;
-    height :315px;
-}
 img:hover {
     width: 94.41% !important;
     border: rgba(255, 255, 255, 0.03) solid 4px;
@@ -217,6 +213,19 @@ hr {
 .email:hover {
     font-size: x-large;
     opacity: 0.5;  
+}
+
+iframe{
+    width: 100%;
+    height :315px;
+}
+
+.iframe{
+    border-radius:20px !important;
+    border: rgba(255, 255, 255, 0.03) solid 4px;
+}
+.iframe:hover{
+
 }
 
 @media (max-width:767px) {
