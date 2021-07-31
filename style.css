@@ -276,12 +276,6 @@ iframe{
         width: 100%;
         height :415px;
     }
-    .welcomeWordH1{
-        transform: scale(1.3);
-    }
-    .welcomeWordH1:hover{
-        transform: scale(1.4);
-    }
 
     .headerleft1{
         height: 100%;
@@ -289,7 +283,7 @@ iframe{
     }
     .headerleft2{
         height: 100%;
-        width: 20% !important;
+        width: 15% !important;
     }
 }
 
