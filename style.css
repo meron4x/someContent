@@ -17,8 +17,10 @@ body {
     border-radius: 30px;   
     box-shadow: 0 0 4px 1px rgba(240, 255, 32, 0.01);
 }
+
 .header:hover{
-    box-shadow: 0 0 40px 1px rgba(240, 255, 32, 0.2);}
+    box-shadow: 0 0 40px 1px rgba(240, 255, 32, 0.2);
+}
 
 .headerright {
     width :30%;
@@ -28,6 +30,7 @@ body {
     text-align: center;
     margin: 0;
 }
+
 .topPic{
     height: 100% !important;
     width: auto !important;
@@ -35,6 +38,7 @@ body {
     transition: 0.5s;
     opacity: 0.95 !important;
 }
+
 .topPic:hover{
     height: 101% !important;
     width: auto !important;
@@ -59,6 +63,7 @@ body {
 .headerleft1:hover{
     box-shadow: none;
 }
+
 .logopic {
     height: 100% !important;
     width: auto !important;
@@ -67,13 +72,13 @@ body {
     transition: 1s;
     transition-timing-function: ease-in-out;
 }
+
 .logopic:hover{
     height: 100% !important;
     width: auto !important;
     opacity: 1 !important;
     box-shadow: none;
 }
-
 
 .headerleft2{
     height: 100%;
@@ -86,6 +91,7 @@ body {
     box-shadow: none;
     box-shadow: 0px 0px 1px 1px rgba(240, 255, 32, 0.08);
 }
+
 .headerleft2:hover{
     
 }
