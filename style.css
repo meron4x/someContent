@@ -67,13 +67,6 @@ body {
     box-shadow: none;
 }
 
-.normalVideos{
-    width: 100% !important;
-    height: auto !important;
-    border-radius: 30px;
-    border: rgba(255, 255, 255, 0) solid 4px;
-}
-
 .logopic {
     height: 100% !important;
     width: auto !important;
@@ -118,6 +111,7 @@ body {
         text-align: center;
         z-index: 1;
         height: fit-content;
+        box-shadow: none;
     }
     30% {
         transform: scale(1.5);}
@@ -203,11 +197,20 @@ body {
     border: rgba(255, 255, 255, 0) solid 4px;
     background-color: #1d1d1d;
 }
+
 .loopVideos:hover {
     border: rgba(255, 255, 255, 0.03) solid 4px;
 }
+
 .loopVideos::-webkit-media-controls {
     display:none;
+}
+
+.normalVideos{
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 30px;
+    border: rgba(255, 255, 255, 0) solid 4px;
 }
 
 .imgpost {
