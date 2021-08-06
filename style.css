@@ -37,6 +37,9 @@ body {
     border-radius:29%;
     transition: 0.5s;
     opacity: 0.95 !important;
+    animation-name: introanime;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
 }
 
 .topPic:hover{
@@ -64,6 +67,13 @@ body {
     box-shadow: none;
 }
 
+.normalVideos{
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 30px;
+    border: rgba(255, 255, 255, 0) solid 4px;
+}
+
 .logopic {
     height: 100% !important;
     width: auto !important;
@@ -71,6 +81,9 @@ body {
     opacity: 0.7;
     transition: 1s;
     transition-timing-function: ease-in-out;
+    animation-name: introanime;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
 }
 
 .logopic:hover{
@@ -81,27 +94,48 @@ body {
 }
 
 .headerleft2{
-    height: 100%;
     width: 27% !important;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     border-radius: 30px;
-    box-shadow: none;
+    animation-name: headerleft2;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
     box-shadow: 0px 0px 1px 1px rgba(240, 255, 32, 0.08);
-}
-
-.headerleft2:hover{
     
 }
 
+@keyframes headerleft2 {
+    0% {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top:45vh;
+        text-align: center;
+        z-index: 1;
+        height: fit-content;
+    }
+    30% {
+        transform: scale(1.5);}
+    40% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
 .welcomeWordH1{
     font-family: 'Trocchi';
-    opacity: 0.8;
+    opacity: 0.9;
     transition: 0.3s;
     animation-name: mymove;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count : infinite;
     animation-timing-function: ease-in-out;}
 
@@ -114,12 +148,12 @@ body {
         color: greenyellow;
         font-weight: bold;}
     25%{ opacity: 0.8;
-        color:  white;}
+        color:  rgb(0, 255, 255);}
     50% {opacity: 0.9;
         color:indigo;
         font-weight: bolder;}
-    25%{ opacity: 0.8;
-        color: white;}
+    75%{ opacity: 0.8;
+        color: rgb(213, 123, 255);}
     100% {opacity: 0.7;
         color:  greenyellow;
     font-weight: bold;}
@@ -136,12 +170,20 @@ body {
     border-radius: 20px;
     opacity: 0.8;    
     transition: 0.3s;
+    animation-name: introanime;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
 }
 
 .cellSection:hover {
     opacity: 0.9;
     box-shadow: 2px 2px 10px 10px rgba(255, 255, 255, 0.03);
 }
+
+@keyframes introanime {
+    0% {opacity: 0;}
+    100% {opacity: 0.8;}
+  }
 
 .picdiv{
     width: 100%;
@@ -292,12 +334,18 @@ iframe{
         height: 100%;
         width: 15% !important;
     }
+    .imgpost:hover {
+        width: 101% !important;
+    }
 }
 
 @media (min-width:992px) {
     .portfolio img {
         max-width: 314px;
         max-height: 314px;
+    }
+    .imgpost:hover {
+        width: 101% !important;
     }
 }
 
