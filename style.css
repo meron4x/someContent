@@ -38,7 +38,7 @@ body {
     transition: 0.5s;
     opacity: 0.95 !important;
     animation-name: introanime;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
 }
 
@@ -51,7 +51,6 @@ body {
     width: 70%;
     display: flex;
     flex-direction: row;
-
 }
 
 .headerleft1{
@@ -75,7 +74,7 @@ body {
     transition: 1s;
     transition-timing-function: ease-in-out;
     animation-name: introanime;
-    animation-duration: 7s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
 }
 
@@ -131,7 +130,8 @@ body {
     animation-name: mymove;
     animation-duration: 7s;
     animation-iteration-count : infinite;
-    animation-timing-function: ease-in-out;}
+    animation-timing-function: ease-in-out;
+}
 
 .welcomeWordH1:hover {
     transform: scale(1.05);
@@ -165,7 +165,7 @@ body {
     opacity: 0.8;    
     transition: 0.3s;
     animation-name: introanime;
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-timing-function: ease-in-out;
 }
 
@@ -176,7 +176,12 @@ body {
 
 @keyframes introanime {
     0% {opacity: 0;}
-    100% {opacity: 0.8;}
+    80% {opacity: 0;}
+    85% {opacity: 1;
+        transform: scale(1)}
+    95% {transform: scale(1.04);}
+    100% {opacity: 0.8;
+        transform: scale(1);}
   }
 
 .picdiv{
