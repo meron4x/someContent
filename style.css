@@ -95,8 +95,7 @@ body {
     animation-name: headerleft2;
     animation-duration: 5s;
     animation-timing-function: ease-out;
-    box-shadow: 0px 0px 1px 1px rgba(240, 255, 32, 0.08);
-    
+    box-shadow: 0px 0px 1px 1px rgba(240, 255, 32, 0.08);  
 }
 
 @keyframes headerleft2 {
@@ -294,7 +293,6 @@ iframe{
     border: rgba(255, 255, 255, 0.03) solid 4px;
 }
 .iframe:hover{
-
 }
 
 @media (max-width:767px) {
@@ -306,13 +304,13 @@ iframe{
         font-size :small ;
     }
     small {
-            font-size :small;
+        font-size :small;
     }
     .email {
         font-size :small;
     }
     .welcomeWordH1 {
-    transform: scale(0.9);
+        transform: scale(0.9);
     }
     .headerleft1{
         width: 20%;
@@ -364,5 +362,3 @@ iframe{
         max-height: 380px;
     }
 }
-
-
