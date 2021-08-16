@@ -7,7 +7,7 @@ var gridview = false;
 
 document.getElementById("mygridbtn").addEventListener("click", function(){ 
   if (gridview == false) {
-    document.querySelector("link[href='styleintro.css']").href = "gridview.css";
+    document.querySelector("link[href='flexview.css']").href = "gridview.css";
     gridview = true;
   }
 });
