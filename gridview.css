@@ -192,14 +192,12 @@ a:hover{
 .cellSection{ 
     width: 33%;
     height: 33vh;
-    background-color:rgba(255, 255, 0, 0.3);
     border-radius: 10px;
     opacity: 0.9;    
     transition: 0.3s;
     animation-name: introanime;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,8 +228,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid rgba(255, 255, 0, 0.3);
-    background-color:rgba(255, 255, 0, 0.3);
+    border: 1px solid rgba(255, 255, 0, 0.0);
     border-radius: 1px;
     box-shadow: 0 0 1px 1px rgba(255, 255, 0, 0.09);
     padding-left: 1px;
