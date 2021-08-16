@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallary</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="js.js"></script>
+    <link rel="stylesheet" href="flexview.css" type="text/css">
 </head>
 <body>
 <header class="header">
@@ -16,7 +15,7 @@
             <img class="logopic" src="images/spiral.png" alt="">
         </div>
         <div class="headerleft2">
-            <h3 class="welcomeWordH1">savvy</h3>
+            <h3 id="test" class="welcomeWordH1">savvy</h3>
         </div>
     </div>
     <div class="headerright">
@@ -24,10 +23,22 @@
     </div>
 </header>
 <hr id="headerspliter">
+
+    <!-- view buttons -->
+<div class="viewdiv">
+    <div class="leftflexdiv viewinstances">
+            <img id="myflexbtn" class="viewimgs" src="images/fleximg.png" alt="">
+        </button>
+    </div>
+    <div class="rightgriddiv viewinstances">
+            <img id="mygridbtn" class="viewimgs" src="images/gridimg.png" alt="">   
+        </button>
+    </div>
+</div>
+
 <main class="main">
+
     <!-- first cell start -->
-
-
     <section class="cellSection">
         <div class="picdiv">
             <img  class="imgpost" src="images/Kristianstadbridgeview1.jpg" alt="">
@@ -725,4 +736,5 @@
     </section>
 </main>
 </body>
+<script src="js.js"></script>
 </html>

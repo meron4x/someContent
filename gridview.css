@@ -4,7 +4,9 @@ body {
     font-family: Arial;
     margin:auto;
     width: 100% !important;
-    max-width: 900px !important;
+    max-width: 1000px !important;
+    border-radius: 11px;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 0, 0.09);
 }
 
 a{
@@ -52,9 +54,6 @@ a:hover{
     border-radius:29%;
     transition: 0.5s;
     opacity: 0.95 !important;
-    animation-name: introanime;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
 }
 
 .topPic:hover{
@@ -87,9 +86,6 @@ a:hover{
     border-radius:29%;
     opacity: 0.7;
     transition: 1s;
-    transition-timing-function: ease-in-out;
-    animation-name: introanime;
-    animation-duration: 3s;
     animation-timing-function: ease-in-out;
 }
 
@@ -107,35 +103,8 @@ a:hover{
     justify-content: center;
     text-align: center;
     border-radius: 30px;
-    animation-name: headerleft2;
-    animation-duration: 5s;
-    animation-timing-function: ease-out;
     box-shadow: 0px 0px 1px 1px rgba(240, 255, 32, 0.08);  
 }
-
-@keyframes headerleft2 {
-    0% {
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        top:45vh;
-        text-align: center;
-        z-index: 1;
-        height: fit-content;
-        box-shadow: none;
-    }
-    30% {
-        transform: scale(1.5);}
-    40% {
-        opacity: 0;
-        transform: scale(1);
-    }
-    100% {
-        opacity: 1;
-    }
-  }
 
 .welcomeWordH1{
     font-family: 'Trocchi';
@@ -171,16 +140,68 @@ a:hover{
     opacity: 0.5;
 }
 
+.viewdiv{
+    position: fixed;
+    bottom: 5vh;
+    height: fit-content;
+    width: 15vh;
+    right: 0%;
+    left: 0%;
+    margin-left:auto; 
+    margin-right : auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    opacity: 1;
+    z-index: 1;
+}
+
+.viewinstances{
+    border-radius: 15px;
+    width:50%;
+}
+.viewbuttons{
+    border-radius: 10%;
+}
+
+.viewimgs{
+    height: 100% !important;
+    width:auto !important;
+    max-width: 50%;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 0 5px 5px rgba(255, 250, 250, 0.2);
+}
+.viewinstances:hover{
+    transform: scale(1.02);
+}
+
+.main{
+    display: flex;
+    width: 99%; 
+    flex-wrap: wrap;
+    flex-direction: row; 
+    margin: auto;
+    border-radius: 11px;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 0, 0.1);
+}
+
 .cellSection{ 
-    width: 100%;
+    width: 33%;
+    height: 30vh;
     background-color:rgba(255, 250, 250, 0.03);
-    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.03);
-    border-radius: 20px;
-    opacity: 0.8;    
+    border-radius: 10px;
+    opacity: 0.9;    
     transition: 0.3s;
     animation-name: introanime;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
+    border: 1px solid rgba(255, 255, 0, 0.3);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 0, 0.09);
 }
 
 .cellSection:hover {
@@ -195,47 +216,27 @@ a:hover{
     95% {
         opacity: 1;
         transform: scale(1.02);}
-    100% {opacity: 0.8;
+    100% {opacity: 0.9;
         transform: scale(1);}
   }
 
 .picdiv{
     width: 100%;
-    height: fit-content;
+    height: 30vh;
     display: flex;
-    padding: 0 0 1.2vw 0;
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
+    text-align: center;
 }
-
-.loopVideos{
-    max-width: 100%;
-    width: 94vw !important;
-    height: auto !important;
-    border-radius: 20px;
-    transition: 0.3s;
-    border: rgba(255, 255, 255, 0) solid 4px;
-    background-color: #1d1d1d;
-}
-
-.loopVideos:hover {
-    border: rgba(255, 255, 255, 0.03) solid 4px;
-}
-
 .loopVideos::-webkit-media-controls {
     display:none;
 }
 
-.normalVideos{
-    width: 100% !important;
-    height: auto !important;
-    border-radius: 30px;
-    border: rgba(255, 255, 255, 0) solid 4px;
-}
-
-.imgpost {
+.imgpost, .loopVideos, .iframe, .normalVideos {
+    padding: 1px !important;
     max-width: 100%;
-    width: 94vw !important;
+    max-height: 100%;
+    width: 100% !important;
     height: auto !important;
     border-radius: 20px;
     transition: 0.3s;
@@ -243,41 +244,16 @@ a:hover{
 }
 
 .imgpost:hover {
-    width: 94.41% !important;
     border: rgba(255, 255, 255, 0.03) solid 4px;
+    opacity: 1;
 }
 
 .descriptionDiv{
-    margin: 0;
-    padding: 0;
-    height: fit-content;
-    text-align: center;
-}
-
-.descriptionSpan{
-    font-weight: bold;
-}
-
-.discriptionP{
-    font-size: medium;
-    margin: 1vh auto;
-}
-
-small {
-    font-size: smaller;
-    opacity: 0.4;
-    color: #ffffff;
-    transition: 0.2s;
-}
-
-.small:hover { 
+    display: none;
 }
 
 hr {
-    border: 0;
-    height: 0.6vh;
-    background-image: linear-gradient(to right, rgb(65, 51, 51, 0), rgb(255, 238, 0), rgba(65, 51, 51,0));
-    margin: 3vh auto;
+    display: none;
 }
 
 #headerspliter{
@@ -303,20 +279,21 @@ iframe{
     height :315px;
 }
 
-.iframe{
-    border-radius:20px !important;
-    border: rgba(255, 255, 255, 0.03) solid 4px;
-}
-.iframe:hover{
-}
 
 @media (max-width:767px) {
-    .portfolio img {
-        max-width: 100%;
-        max-height: 100%;
+    .main{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
-    .discriptionP {
-        font-size :small ;
+    .picdiv, .iframe{
+        height: 18vh;;
+    }
+    .cellSection{ 
+        height: 18vh;
+        width: 32% !important;
     }
     small {
         font-size :small;
