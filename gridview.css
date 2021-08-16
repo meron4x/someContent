@@ -185,14 +185,12 @@ a:hover{
     flex-wrap: wrap;
     flex-direction: row; 
     margin: auto;
-    border-radius: 11px;
-    box-shadow: 0 0 5px 5px rgba(136, 255, 0, 0.05);
+    border-radius: 11p
 }
 
 .cellSection{ 
     width: 33%;
     height: 33vh;
-    border-radius: 10px;
     opacity: 0.9;    
     transition: 0.3s;
     animation-name: introanime;
@@ -202,6 +200,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
+    box-shadow: 0 0 5px 5px rgba(136, 255, 0, 0.02);
 }
 
 .cellSection:hover {
