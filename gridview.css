@@ -199,7 +199,6 @@ a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: 0 0 5px 5px rgba(136, 255, 0, 0.02);
 }
 
 .cellSection:hover {
