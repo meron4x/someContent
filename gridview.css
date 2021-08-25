@@ -357,14 +357,3 @@ iframe{
         max-height: 380px;
     }
 }
-
-
-
-.cellSection:active {
-    transform: scale(2) !important;
-    z-index: 2;
-    opacity: 1 !important;
-    background-color:#1d1d1d ;
-    z-index: 10;
-    transition: 0s;
-  }
