@@ -191,8 +191,7 @@ a:hover{
 .cellSection{ 
     width: 33%;
     height: 33vh;
-    opacity: 0.9;    
-    transition: 0.3s;
+    opacity: 0.9;   
     animation-name: introanime;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -200,6 +199,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: 0.2s 2s;
 }
 
 .cellSection:hover {
@@ -364,12 +364,7 @@ iframe{
     transform: scale(2) !important;
     z-index: 2;
     opacity: 1 !important;
-    position: fixed;
-    right: 0%;
-    left: 0%;
-    top: 5vh;
-    margin-left:auto; 
-    margin-right : auto;
     background-color:#1d1d1d ;
     z-index: 1;
+    transition: 0s;
   }
