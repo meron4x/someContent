@@ -192,6 +192,7 @@ a:hover{
 .viewinstances{
     border-radius: 15px;
     width:50%;
+    height: 5vh !important;
 }
 .viewbuttons{
     border-radius: 10%;

@@ -161,6 +161,7 @@ a:hover{
 .viewinstances{
     border-radius: 15px;
     width:50%;
+    height: 4vh !important;
 }
 .viewbuttons{
     border-radius: 10%;
