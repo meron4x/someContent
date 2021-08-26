@@ -24,17 +24,15 @@ a:hover{
 
 .header {
     width: 100%;
-    text-align: center;
-    display: flex;
     margin: 1vh 0 2vh 0;
     padding: 0.2vh 0;
-    height: 4vh; 
+    height: 2vh; 
     border-radius: 30px;   
     box-shadow: 0 0 4px 1px rgba(240, 255, 32, 0.01);
-}
-
-.header:hover{
-    box-shadow: 0 0 40px 1px rgba(240, 255, 32, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .headerright {
@@ -62,11 +60,6 @@ a:hover{
     width: auto !important;
 }
 
-.headerleft{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-}
 
 .headerleft1{
     width: 10%;
@@ -100,17 +93,23 @@ a:hover{
     box-shadow: none;
 }
 
-.headerleft2{
-    width: 27% !important;
+.headerleft{
+    width: 20%;
+    height: 100% !important;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 20px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 1px 1px rgba(240, 255, 32, 0.08); 
     animation-name: headerleft2;
-    animation-duration: 5s;
-    animation-timing-function: ease-out;
-    box-shadow: 0px 0px 1px 1px rgba(240, 255, 32, 0.08);  
+    animation-duration: 3s;
+    animation-timing-function: ease-out; 
+}
+.headerleft:hover{
+    box-shadow: 0px 0px 3px 3px rgba(240, 255, 32, 0.08); 
+    background-color: rgba(255, 255, 255, 0.01);
 }
 
 @keyframes headerleft2 {
@@ -126,11 +125,8 @@ a:hover{
         height: fit-content;
         box-shadow: none;
     }
-    30% {
-        transform: scale(1.5);}
     40% {
         opacity: 0;
-        transform: scale(1);
     }
     100% {
         opacity: 1;
@@ -219,7 +215,7 @@ a:hover{
     opacity: 0.8;    
     transition: 0.3s;
     animation-name: introanime;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
 }
 
