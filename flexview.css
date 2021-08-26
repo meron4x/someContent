@@ -35,64 +35,6 @@ a:hover{
     text-align: center;
 }
 
-.headerright {
-    width :30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0;
-}
-
-.topPic{
-    height: 100% !important;
-    width: auto !important;
-    border-radius:29%;
-    transition: 0.5s;
-    opacity: 0.95 !important;
-    animation-name: introanime;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-}
-
-.topPic:hover{
-    height: 101% !important;
-    width: auto !important;
-}
-
-
-.headerleft1{
-    width: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    text-align: center;
-    border-radius: 30px;
-}
-
-.headerleft1:hover{
-    box-shadow: none;
-}
-
-.logopic {
-    height: 100% !important;
-    width: auto !important;
-    border-radius:29%;
-    opacity: 0.7;
-    transition: 1s;
-    transition-timing-function: ease-in-out;
-    animation-name: introanime;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-}
-
-.logopic:hover{
-    height: 100% !important;
-    width: auto !important;
-    opacity: 1 !important;
-    box-shadow: none;
-}
-
 .headerleft{
     width: 20%;
     height: 100% !important;
@@ -125,7 +67,19 @@ a:hover{
         height: fit-content;
         box-shadow: none;
     }
-    40% {
+    90% {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top:45vh;
+        text-align: center;
+        z-index: 1;
+        height: fit-content;
+        box-shadow: none;
+    }
+    99% {
         opacity: 0;
     }
     100% {

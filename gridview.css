@@ -26,7 +26,7 @@ a:hover{
     width: 100%;
     margin: 1vh 0 2vh 0;
     padding: 0.2vh 0;
-    height: 3vh; 
+    height: 2vh; 
     border-radius: 30px;   
     box-shadow: 0 0 4px 1px rgba(240, 255, 32, 0.01);
     display: flex;
@@ -35,80 +35,23 @@ a:hover{
     text-align: center;
 }
 
-.header:hover{
-    box-shadow: 0 0 40px 1px rgba(240, 255, 32, 0.2);
-}
-
-.headerright {
-    width :30%;
+.headerleft{
+    width: 20%;
+    height: 100% !important;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0;
-}
-
-.topPic{
-    height: 100% !important;
-    width: auto !important;
-    border-radius:29%;
-    transition: 0.5s;
-    opacity: 0.95 !important;
-}
-
-.topPic:hover{
-    height: 101% !important;
-    width: auto !important;
-}
-
-.headerleft{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-}
-
-.headerleft1{
-    width: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    text-align: center;
-    border-radius: 30px;
-}
-
-.headerleft1:hover{
-    box-shadow: none;
-}
-
-.logopic {
-    height: 100% !important;
-    width: auto !important;
-    border-radius:29%;
-    opacity: 0.7;
-    transition: 1s;
-    animation-timing-function: ease-in-out;
-}
-
-.logopic:hover{
-    height: 100% !important;
-    width: auto !important;
-    opacity: 1 !important;
-    box-shadow: none;
-}
-
-.headerleft2{
-    width: 27% !important;
-    height: 100% !important;
-    right: 0%;
-    left: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
+    border-radius: 20px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 1px 1px rgba(240, 255, 32, 0.08); 
     animation-name: headerleft2;
-    animation-duration: 5s;
-    animation-timing-function: ease-out;
-    box-shadow: 0px 0px 1px 1px rgba(240, 255, 32, 0.08);  
-    padding: 1px;
+    animation-duration: 3s;
+    animation-timing-function: ease-out; 
+}
+.headerleft:hover{
+    box-shadow: 0px 0px 3px 3px rgba(240, 255, 32, 0.08); 
+    background-color: rgba(255, 255, 255, 0.01);
 }
 
 .welcomeWordH1{
