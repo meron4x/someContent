@@ -54,39 +54,6 @@ a:hover{
     background-color: rgba(255, 255, 255, 0.01);
 }
 
-@keyframes headerleft2 {
-    0% {
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        top:45vh;
-        text-align: center;
-        z-index: 1;
-        height: fit-content;
-        box-shadow: none;
-    }
-    90% {
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        top:45vh;
-        text-align: center;
-        z-index: 1;
-        height: fit-content;
-        box-shadow: none;
-    }
-    99% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-  }
-
 .welcomeWordH1{
     font-family: 'Trocchi';
     opacity: 0.9;
