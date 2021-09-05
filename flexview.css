@@ -109,7 +109,7 @@ a:hover{
 .viewinstances{
     border-radius: 15px;
     width:50%;
-    height: 5vh !important;
+    height: 4vh !important;
 }
 .viewbuttons{
     border-radius: 10%;
@@ -234,10 +234,6 @@ hr {
     height: 0.6vh;
     background-image: linear-gradient(to right, rgb(65, 51, 51, 0), rgb(255, 238, 0), rgba(65, 51, 51,0));
     margin: 3vh auto;
-}
-
-#headerspliter{
-    display: none;
 }
 
 .email{
