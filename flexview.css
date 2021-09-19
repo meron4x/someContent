@@ -141,8 +141,7 @@ a:hover{
 }
 
 .cellSection:hover {
-    opacity: 0.9;
-    box-shadow: 2px 2px 10px 10px rgba(255, 255, 255, 0.03);
+    opacity: 0.95;
 }
 
 @keyframes introanime {
@@ -195,11 +194,12 @@ a:hover{
     width: 94vw !important;
     height: auto !important;
     border-radius: 20px;
+    border: rgba(255, 255, 255, 0.00) solid 4px;
 }
 
 .imgpost:hover {
-    width: 94.41% !important;
     border: rgba(255, 255, 255, 0.03) solid 4px;
+    box-shadow: 2px 2px 10px 10px rgba(255, 255, 255, 0.04);
 }
 
 .descriptionDiv{
@@ -291,9 +291,6 @@ iframe{
         max-width: 240px;
         max-height: 240px;
     }
-    img:hover {
-        width: 99% !important;
-    }
     iframe{
         width: 100%;
         height :415px;
@@ -307,18 +304,12 @@ iframe{
         height: 100%;
         width: 15% !important;
     }
-    .imgpost:hover {
-        width: 101% !important;
-    }
 }
 
 @media (min-width:992px) {
     .portfolio img {
         max-width: 314px;
         max-height: 314px;
-    }
-    .imgpost:hover {
-        width: 101% !important;
     }
 }
 
