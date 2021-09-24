@@ -167,7 +167,13 @@ a:hover{
     100% {opacity: 0.9;
         transform: scale(1);}
   }
-
+  .quotes{
+    width: 90%;
+    margin:auto;
+    padding: 1%;
+    border-radius: 25px ;
+    text-align: center;
+}
 .picdiv{
     width: 100%;
     height: 99% !important;

@@ -189,6 +189,19 @@ a:hover{
     border: rgba(255, 255, 255, 0) solid 4px;
 }
 
+.quotes{
+    width: 70%;
+    margin:auto;
+    padding: 4%;
+    border: solid 4px rgba(255, 255, 255, 0.05);
+    border-radius: 25px ;
+    transition: 0.5s;
+    text-align: center;
+}
+.quotes:hover{
+    border: solid 4px rgba(255, 255, 255, 0.1);
+}
+
 .imgpost {
     max-width: 100%;
     width: 94vw !important;
