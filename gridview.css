@@ -171,6 +171,7 @@ a:hover{
     width: 90%;
     margin:auto;
     padding: 1%;
+    max-height: 100% !important;
     border-radius: 25px ;
     text-align: center;
 }
