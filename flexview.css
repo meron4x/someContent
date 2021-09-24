@@ -193,13 +193,12 @@ a:hover{
     width: 70%;
     margin:auto;
     padding: 4%;
-    border: solid 4px rgba(255, 255, 255, 0.05);
     border-radius: 25px ;
-    transition: 0.5s;
     text-align: center;
 }
 .quotes:hover{
-    border: solid 4px rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.1);
 }
 
 .imgpost {
