@@ -157,13 +157,19 @@ a:hover{
 }
 .quotes{
     width: 90%;
-    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 1%;
-    height: 99% !important;
+    height: fit-content;
+    max-height: 99% !important;
     border-radius: 25px ;
     text-align: center;
-    border: 1px solid white;
+
 }
+h4{
+overflow-wrap: break-word;}
 
 
 @keyframes introanime {
@@ -255,6 +261,8 @@ iframe{
         height: 18vh;
         width: 32% !important;
     }
+    h4{
+        font-size: 10px;}
     small {
         font-size :small;
     }
@@ -284,7 +292,8 @@ iframe{
         width: 100%;
         height :415px;
     }
-
+    h4{
+        font-size: smaller;}
     .headerleft1{
         height: 100%;
         width: 15% !important;
@@ -303,6 +312,8 @@ iframe{
         max-width: 314px;
         max-height: 314px;
     }
+    h4{
+        font-size: small;}
     .imgpost:hover {
         width: 101% !important;
     }
