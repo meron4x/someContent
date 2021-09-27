@@ -214,8 +214,9 @@ h4{
 }
 
 .descriptionDiv{
-    margin: 0;
+    margin: auto;
     padding: 0;
+    width: 90%;
     height: fit-content;
     text-align: center;
 }
