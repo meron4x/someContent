@@ -200,6 +200,14 @@ a:hover{
 }
 h4{
     overflow-wrap: break-word;}
+
+#qr{
+    width: 50% !important;
+    padding: 4%;
+    height: auto;
+    border-radius: 25px ;
+    border: solid 1px rgb(251, 255, 2);
+}
 .imgpost {
     max-width: 100%;
     width: 94vw !important;
