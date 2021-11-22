@@ -7,7 +7,6 @@ body {
     max-width: 1000px !important;
     border-radius: 11px;
 }
-
 a{
     color: #1eff00;
     opacity: 0.7;
@@ -34,7 +33,6 @@ a:hover{
     justify-content: center;
     text-align: center;
 }
-
 .headerleft{
     width: 20%;
     height: 100% !important;
@@ -53,7 +51,6 @@ a:hover{
     box-shadow: 0px 0px 3px 3px rgba(240, 255, 32, 0.08); 
     background-color: rgba(255, 255, 255, 0.01);
 }
-
 .welcomeWordH1{
     font-family: 'Trocchi';
     opacity: 0.9;
@@ -63,11 +60,9 @@ a:hover{
     animation-iteration-count : infinite;
     animation-timing-function: ease-in-out;
 }
-
 .welcomeWordH1:hover {
     transform: scale(1.05);
 }
-
 @keyframes mymove {
     0% {opacity: 0.7;
         color: greenyellow;
@@ -83,11 +78,9 @@ a:hover{
         color:  greenyellow;
     font-weight: bold;}
   }
-
 #mypic-nature {
     opacity: 0.5;
 }
-
 .viewdiv{
     position: fixed;
     bottom: 5vh;
@@ -106,7 +99,6 @@ a:hover{
     opacity: 1;
     z-index: 1;
 }
-
 .viewinstances{
     border-radius: 15px;
     width:50%;
@@ -115,7 +107,6 @@ a:hover{
 .viewbuttons{
     border-radius: 10%;
 }
-
 .viewimgs{
     height: 100% !important;
     width:auto !important;
@@ -128,7 +119,6 @@ a:hover{
 .viewinstances:hover{
     transform: scale(1.02);
 }
-
 .main{
     display: flex;
     width: 99%; 
@@ -136,7 +126,6 @@ a:hover{
     flex-direction: row; 
     margin: auto;
 }
-
 .cellSection{ 
     width: 33%;
     height: 33vh;
@@ -150,7 +139,6 @@ a:hover{
     text-align: center;
     transition: 0.2s 2s;
 }
-
 .cellSection:hover {
     opacity: 0.9;
     box-shadow: 2px 2px 10px 10px rgba(255, 255, 255, 0.03);
@@ -166,12 +154,9 @@ a:hover{
     max-height: 99% !important;
     border-radius: 25px ;
     text-align: center;
-
 }
 h4{
 overflow-wrap: break-word;}
-
-
 @keyframes introanime {
     0% {opacity: 0;}
     85% {opacity: 0;
@@ -199,7 +184,6 @@ overflow-wrap: break-word;}
 .loopVideos::-webkit-media-controls {
     display:none;
 }
-
 .imgpost, .loopVideos, .iframe, .normalVideos {
     padding: 1px !important;
     max-width: 100%;
@@ -209,23 +193,18 @@ overflow-wrap: break-word;}
     border-radius: 5px;
     transition: 0.3s;
 }
-
 .imgpost:hover {
     opacity: 1;
 }
-
 .descriptionDiv{
     display: none;
 }
-
 hr {
     display: none;
 }
-
 #headerspliter{
     display: none;
 }
-
 .email{
     margin: 2vh;
     display: flex;
@@ -234,18 +213,14 @@ hr {
     transition: 0.3s;
     opacity: 0.1;
 }
-
 .email:hover {
     font-size: x-large;
     opacity: 0.5;  
 }
-
 iframe{
     width: 100%;
     height :315px;
 }
-
-
 @media (max-width:767px) {
     .main{
         margin: auto;
@@ -279,7 +254,6 @@ iframe{
         width: 30%;
     }
 }
-
 @media (min-width:768px) {
     .portfolio img {
         max-width: 240px;
@@ -306,7 +280,6 @@ iframe{
         width: 101% !important;
     }
 }
-
 @media (min-width:992px) {
     .portfolio img {
         max-width: 314px;
@@ -318,7 +291,6 @@ iframe{
         width: 101% !important;
     }
 }
-
 @media (min-width:1200px) {
     .portfolio img {
         max-width: 380px;
