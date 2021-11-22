@@ -6,7 +6,6 @@ body {
     width: 100% !important;
     max-width: 900px !important;
 }
-
 a{
     color: #1eff00;
     opacity: 0.7;
@@ -21,7 +20,6 @@ a{
 a:hover{
     background-color:rgba(255, 250, 250, 0.08);
 }
-
 .header {
     width: 100%;
     margin: 1vh 0 2vh 0;
@@ -52,7 +50,6 @@ a:hover{
     box-shadow: 0px 0px 3px 3px rgba(240, 255, 32, 0.08); 
     background-color: rgba(255, 255, 255, 0.01);
 }
-
 .welcomeWordH1{
     font-family: 'Trocchi';
     opacity: 0.9;
@@ -62,11 +59,9 @@ a:hover{
     animation-iteration-count : infinite;
     animation-timing-function: ease-in-out;
 }
-
 .welcomeWordH1:hover {
     transform: scale(1.05);
 }
-
 @keyframes mymove {
     0% {opacity: 0.7;
         color: greenyellow;
@@ -82,7 +77,6 @@ a:hover{
         color:  greenyellow;
     font-weight: bold;}
   }
-
 #mypic-nature {
     opacity: 0.5;
 }
@@ -104,7 +98,6 @@ a:hover{
     opacity: 1;
     z-index: 1;
 }
-
 .viewinstances{
     border-radius: 15px;
     width:50%;
@@ -113,7 +106,6 @@ a:hover{
 .viewbuttons{
     border-radius: 10%;
 }
-
 .viewimgs{
     height: 100% !important;
     width:auto !important;
@@ -138,11 +130,9 @@ a:hover{
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
 }
-
 .cellSection:hover {
     opacity: 0.95;
 }
-
 @keyframes introanime {
     0% {opacity: 0;}
     85% {opacity: 0;
@@ -153,7 +143,6 @@ a:hover{
     100% {opacity: 0.8;
         transform: scale(1);}
   }
-
 .picdiv{
     width: 100%;
     height: fit-content;
@@ -162,7 +151,6 @@ a:hover{
     justify-content: center;
     align-items: flex-start;
 }
-
 .loopVideos{
     max-width: 100%;
     width: 94vw !important;
@@ -172,22 +160,18 @@ a:hover{
     border: rgba(255, 255, 255, 0) solid 4px;
     background-color: #1d1d1d;
 }
-
 .loopVideos:hover {
     border: rgba(255, 255, 255, 0.03) solid 4px;
 }
-
 .loopVideos::-webkit-media-controls {
     display:none;
 }
-
 .normalVideos{
     width: 100% !important;
     height: auto !important;
     border-radius: 30px;
     border: rgba(255, 255, 255, 0) solid 4px;
 }
-
 .quotes{
     width: 90%;
     margin:auto;
@@ -199,7 +183,6 @@ a:hover{
 }
 h4{
     overflow-wrap: break-word;}
-
 #qr{
     width: 50% !important;
     padding: 4%;
@@ -214,12 +197,10 @@ h4{
     border-radius: 20px;
     border: rgba(255, 255, 255, 0.00) solid 4px;
 }
-
 .imgpost:hover {
     border: rgba(255, 255, 255, 0.03) solid 4px;
     box-shadow: 2px 2px 10px 10px rgba(255, 255, 255, 0.04);
 }
-
 .descriptionDiv{
     margin: auto;
     padding: 0;
@@ -227,33 +208,27 @@ h4{
     height: fit-content;
     text-align: center;
 }
-
 .descriptionSpan{
     font-weight: bold;
 }
-
 .discriptionP{
     font-size: medium;
     margin: 1vh auto;
 }
-
 small {
     font-size: smaller;
     opacity: 0.4;
     color: #ffffff;
     transition: 0.2s;
 }
-
 .small:hover { 
 }
-
 hr {
     border: 0;
     height: 0.6vh;
     background-image: linear-gradient(to right, rgb(65, 51, 51, 0), rgb(255, 238, 0), rgba(65, 51, 51,0));
     margin: 3vh auto;
 }
-
 .email{
     margin: 2vh;
     display: flex;
@@ -262,24 +237,20 @@ hr {
     transition: 0.3s;
     opacity: 0.1;
 }
-
 .email:hover {
     font-size: x-large;
     opacity: 0.5;  
 }
-
 iframe{
     width: 100%;
     height :315px;
 }
-
 .iframe{
     border-radius:20px !important;
     border: rgba(255, 255, 255, 0.03) solid 4px;
 }
 .iframe:hover{
 }
-
 @media (max-width:767px) {
     .portfolio img {
         max-width: 100%;
@@ -304,7 +275,6 @@ iframe{
         width: 30%;
     }
 }
-
 @media (min-width:768px) {
     .portfolio img {
         max-width: 240px;
@@ -314,7 +284,6 @@ iframe{
         width: 100%;
         height :415px;
     }
-
     .headerleft1{
         height: 100%;
         width: 15% !important;
@@ -331,7 +300,6 @@ iframe{
         max-height: 314px;
     }
 }
-
 @media (min-width:1200px) {
     .portfolio img {
         max-width: 380px;
